@@ -82,6 +82,10 @@ GEM
       sass (>= 3.3.0, < 3.5)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.7.0)
+      railties
+      sprockets-rails
+    graphql (1.9.9)
     i18n (1.1.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -229,6 +233,8 @@ DEPENDENCIES
   dotenv-rails
   factory_bot
   foundation-rails (~> 5.0)
+  graphiql-rails
+  graphql
   jbuilder (~> 2.5)
   jquery-rails
   launchy
