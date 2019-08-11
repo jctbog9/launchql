@@ -14,6 +14,7 @@ After succesfully cloning run the following commands in sequence:
 ```
 bundle exec rake db:create
 bundle exec rake db:migrate
+bundle exec rake db:seed
 
 yarn install
 bundle
@@ -27,4 +28,6 @@ rails s
 ```
 
 ## <u>Testing</u>:
-LaunchQL tests using jasmine-enzyme. To run tests simply run `yarn test` in your terminal.
+LaunchQL tests using rspec and jasmine-enzyme. 
+To run backend tests enter `rspec` in your terminal.
+To run frontend tests enter `yarn test` in your terminal.
