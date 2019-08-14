@@ -7,7 +7,7 @@ module Types
     end
 
     field :user, Types::UserType, null: false do
-      argument :id, ID, required: true
+      argument :id, String, required: true
     end
 
     def user(id:)
